@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Common Css Start*/
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* Common Css End*/
+
+/* Header Start  */
+header{
+    padding: 30px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header_logo{
+    width: 12%;
+    float: left;
+}
+.header_logo img{
+    width: 100%;
+    margin-top: 7px;
+}
+.header_menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin:0 55px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    color: #626262;
+    transition: .33s linear;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/* Header End */
+
+/* Banner Start  */
+.banner_image img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+/* Banner End */
+
+/* Photodiary Start  */
+.photodiary{
+    padding: 100px 0 30px;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.light{
+    font-family: "Ubuntu", sans-serif; 
+    font-weight: 300;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700px;
+    margin: 15px 0 20px;
+}
+.title_text {
+    line-height: 24px;
+    margin: 0;
+}
+.p_link{
+    display: inline-block;
+    margin-top: 40px;
+}
+/* Photodiary End */
+
+/* Blog Start  */
+.blog{
+    padding: 0 0 100px;
+}
+.b_image img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog_item {
+    margin-top: 70px;
+    width: 47%;
+    float: left;
+}
+.blog_item:nth-child(even){
+    margin-left: 6%;
+}
+/* Blog End */
+
+/* Sign Up Start  */
+.sign_up{
+    padding: 70px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+.s_button{
+    border: 0;
+}
+.s_form input {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    padding-right: 40px;
+}
+.s_button img{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: -40px;
+}
+/* Sign Up End */
+
+/* Blog2 Start  */
+.blog2{
+    padding: 100px 0;
+}
+.blog_button{
+    text-align: center;
+}
+.blog_button button{
+    background-color: #fff;
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    font-family: "Playfair Display", serif;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .33s linear;
+    margin: 150px 0 50px;
+}
+.blog_button button:hover{
+    background-color: #626262;
+    color: #fff;
+}
+/* Blog2 End */
+
+/* Footer Start  */
+footer{
+    background-color: #f0f0f0;
+    padding: 30px 0;
+}
+.footer_text{
+    width: 30%;
+    float: left;
+}
+.footer_text ul li{
+    float: left;
+    list-style-type: none;
+}
+.footer_text ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+}
+.social{
+    width: 70%;
+    float: right;
+}
+.social ul {
+    float: right;
+}
+.social ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.social ul li:last-child{
+    margin-right: 0;
+}
+/* Footer End */
